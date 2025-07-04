@@ -3,7 +3,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // ডাটাবেস সংযোগ
-include 'db_connection.php';
+include 'db_connect.php';
 
 // Roll >= 2000000 ধরে নিচ্ছি (আপনি প্রয়োজনমত পরিবর্তন করবেন)
 $sql = "SELECT * FROM ece2217 WHERE Roll >= 2000000";
